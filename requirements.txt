@@ -1,0 +1,11 @@
+# Orchestration & Logic
+langgraph
+langchain-core
+
+# API Server
+fastapi
+uvicorn
+
+# Network & Utilities
+requests
+pydantic
