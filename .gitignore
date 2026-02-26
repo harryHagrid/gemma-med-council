@@ -1,0 +1,30 @@
+# Python Virtual Environments
+.venv/
+venv/
+env/
+.conda/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+macc-frontend/node_modules/
+dist/
+macc-frontend/dist/
+.eslintcache
+
+# Environment & Secrets
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# medical test images
+test_images/*.png
+test_images/*.jpg
