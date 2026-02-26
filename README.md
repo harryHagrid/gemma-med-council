@@ -67,11 +67,14 @@ npm run dev
 
 ## Roadmap
 
-## Phase 2: Multi-Turn Debate: Implementing a recursive loop where agents can "challenge" each other's findings based on a certainty score.
+## Phase 2: 
+Multi-Turn Debate: Implementing a recursive loop where agents can "challenge" each other's findings based on a certainty score.
 
-## Phase 3: Chairman Consensus Scoring: Adding a quantitative fidelity score to measure council agreement.
+## Phase 3: 
+Chairman Consensus Scoring: Adding a quantitative fidelity score to measure council agreement.
 
-## Phase 4: Deterministic Fine-Tuning: Moving the SLM from probabilistic generation to strictly deterministic intent extraction.
+## Phase 4: 
+Deterministic Fine-Tuning: Moving the SLM from probabilistic generation to strictly deterministic intent extraction.
 
 ## Author
 Abhishek Pattanaik 
