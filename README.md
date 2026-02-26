@@ -47,23 +47,23 @@ Final Consensus (Chairman): Reviews the deliberation and issues a final executiv
 
 # Getting Started
 1. Model Inference (Backend Bridge)
-Open notebooks/medgemma_inference.ipynb in Google Colab.
+    - Open notebooks/medgemma_inference.ipynb in Google Colab.
 
-Run the cells to start the Ngrok tunnel.
+    - Run the cells to start the Ngrok tunnel.
 
-Copy the generated URL into agents-backend/agents_main.py as the COLAB_URL.
+    - Copy the generated URL into agents-backend/agents_main.py as the COLAB_URL.
 
 2. Run the Agents Backend
-Bash
-# From the root directory
-pip install -r requirements.txt
-cd agents-backend
-python agents_main.py
+    Bash
+    ## From the root directory
+    - pip install -r requirements.txt
+    - cd agents-backend
+    - python agents_main.py
 3. Run the M.A.C.C. Dashboard
-Bash
-cd macc-frontend
-npm install
-npm run dev
+    Bash
+    - cd macc-frontend
+    - npm install
+    - npm run dev
 
 ## Roadmap
 
@@ -77,5 +77,5 @@ Chairman Consensus Scoring: Adding a quantitative fidelity score to measure coun
 Deterministic Fine-Tuning: Moving the SLM from probabilistic generation to strictly deterministic intent extraction.
 
 ## Author
-Abhishek Pattanaik 
-Creator & End-to-End Developer
+    Abhishek Pattanaik 
+    Creator & End-to-End Developer
