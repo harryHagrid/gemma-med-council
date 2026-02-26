@@ -15,7 +15,7 @@ In clinical practice, life-altering decisions are made by specialist boards. M.A
 
 ## Repository Structure
 
-
+```text
 GEMMA-MED-COUNCIL
 ├── agents-backend/           # LangGraph Orchestration Layer
 │   ├── agents_main.py        # Main FastAPI server & Agentic Logic
@@ -30,7 +30,7 @@ GEMMA-MED-COUNCIL
 ├── requirements.txt          # Backend dependencies
 ├── LICENSE                   # MIT License
 └── README.md
-
+```
 ## Technical Architecture & Deployment
 
 The system utilizes a Stateful Agentic Graph to manage clinical transitions.
@@ -67,12 +67,12 @@ npm run dev
 
 ## Roadmap
 
-# Phase 2: Multi-Turn Debate: Implementing a recursive loop where agents can "challenge" each other's findings based on a certainty score.
+## Phase 2: Multi-Turn Debate: Implementing a recursive loop where agents can "challenge" each other's findings based on a certainty score.
 
-# Phase 3: Chairman Consensus Scoring: Adding a quantitative fidelity score to measure council agreement.
+## Phase 3: Chairman Consensus Scoring: Adding a quantitative fidelity score to measure council agreement.
 
-# Phase 4: Deterministic Fine-Tuning: Moving the SLM from probabilistic generation to strictly deterministic intent extraction.
+## Phase 4: Deterministic Fine-Tuning: Moving the SLM from probabilistic generation to strictly deterministic intent extraction.
 
-# Author
+## Author
 Abhishek Pattanaik 
 Creator & End-to-End Developer
